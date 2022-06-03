@@ -1,4 +1,4 @@
-.spoty_head{
+.spoty_head {
     background-color: black;
     height: 80px;
     margin: 0px;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.spoty_logo{
+.spoty_logo {
     width: 132px;
     padding: 20px 0px 20px;
 }
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.search_inp{
+.search_inp {
     height: 100%;
     width: 40%;
     border: 2px inset rgb(118, 118, 118);
@@ -38,6 +38,47 @@
     align-items: center;
 }
 
-.search_img{
+.search_img {
     height: 15px;
+}
+
+.text_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track_artists {
+    width: 690px;
+    position: relative;
+}
+
+.record_body {
+    display: grid;
+    grid-template-columns: 80px 2fr 1fr 1fr 0.2fr 0.2fr;
+    gap: 10px;
+    height: 80px;
+    margin: 10px;
+}
+
+.track_img {
+    height: 100%;
+    position: relative;
+
+}
+
+.track_img img {
+    height: 100%;
+    position: absolute;
+
+}
+
+.like_btn {
+    height: 30px;
+    position: relative;
+}
+
+.like_btn img {
+    height: 100%;
+    position: absolute;
 }
